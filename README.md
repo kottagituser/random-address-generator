@@ -7,7 +7,7 @@
 	*The address is NOT logically/shipping valid up to a country level. 
 	 Instead is human readable country mailing format.
 	 
-## Java + SpringBoot Solution
+## Java 8 + SpringBoot Solution
 	*Response is in a human readable JSON/XML format.
 	*Basic Authentication and unit tests included.
 	
@@ -36,6 +36,8 @@
 	    "countryCode": "MEX",
 	    "addressTxt": "Mesones 7423, Col. Xalapa, Zacatecas Chiapas CP: 78759 México"
 	}
+	
+	(addressTxt json field in the response give a one line address in the country specific format)
 	```
 	
 ## Test Data Generation (see RandomGeneratorService.java)
