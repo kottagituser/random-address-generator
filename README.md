@@ -15,9 +15,9 @@
 	Swagger:
 	http://localhost:8080/codechallenge/swagger-ui.html
 	
-	URL:
-	http://localhost:8080/codechallenge/randomizer/address/
 	
+	URL:
+	GET http://localhost:8080/codechallenge/randomizer/address/
 	
 	Authorization header:
 	Basic bWFzdGVyY2FyZDptYXN0ZXJjYXJk 
